@@ -45,9 +45,9 @@
 ## ✅ **ToDo List**
 
 ### 📁 **1. Úprava struktury složek**
-- [] Přesunout všechny CSS soubory do složky `/css`
+- [ X ] Přesunout všechny CSS soubory do složky `/css`
 - [ X ] Přesunout všechny obrázky do složky `/assets/images`
-- [ ] Přesunout JavaScript soubory do `/js`
+- [ X ] Přesunout JavaScript soubory do `/js`
 - [ ] Vytvořit složku `/components` pro komponenty jako hlavička a patička
 - [ ] Vytvořit složku `/data` a umístit tam `produkty.json` se seznamem produktů
 
