@@ -1,1 +1,195 @@
-<h1> Nadpis</h1>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaolin Sensei</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .logo-fixed {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 80px;
+            z-index: 1000;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .product {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo-fixed" src="H:\Python\logo.png" alt="Logo Shaolin Sensei">
+<header>
+    <h1>Shaolin Sensei</h1>
+</header>
+
+<nav>
+    <a href="#produkty">Produkty</a>
+    <a href="#občanství">Občanství</a>
+    <a href="#kontakt">O nás</a>
+</nav>
+
+<div class="container">
+
+    <section id="Naše služby">
+        <h2>Žhavé Produkty</h2>
+        <div class="product">
+            <div class="product-card">
+                <img src="H:\Python\Fight.png" alt="Souboj s Tigrem">
+                <h3>Souboj s Tigrem</h3>
+                <p>Cena: 3,500 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\Datle.jpg" alt="Vzácné Himalajské sušené datle">
+                <h3>Vzácné Himalajské sušené datle</h3>
+                <p>Cena: 600 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\ExtraMed.png" alt="ExtraMed">
+                <h3>Extrémní Meditace (3h)</h3>
+                <p>Cena: 1,750 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\Namaste.png" alt="Tanker">
+                <h3>Souboj s Tankem (Panzer)</h3>
+                <p>Cena: 2,000 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\Puffer.png" alt="Fugu">
+                <h3>Dotyk Smrti</h3>
+                <p>Cena: 2,300 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\Res.png" alt="Res">
+                <h3>Členství v Tibetské Odbojové Organizaci (3 roky vojenské služby)</h3>
+                <p>Cena: 1,000 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\Lava.png" alt="Ohen">
+                <h3>Cviky Mistra Ohně</h3>
+                <p>Cena: 4,000 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\China.png" alt="China">
+                <h3>Souboj s Čínskými ozbrojenými jednotkami</h3>
+                <p>Cena: 700 Kč</p>
+                <button>Koupit</button>
+        </div>
+    </section>
+
+<section id="občanství">
+        <h2>Občanství</h2>
+        <div class="product">
+            <div class="product-card">
+                <img src="H:\Python\Citiz.png" alt="Citiz">
+                <h3>Čínské Občanství</h3>
+                <p>Cena: 4,500 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+                <img src="H:\Python\Taiw.png" alt="Taiw">
+                <h3>Tajwanské Občanství</h3>
+                <p>Cena: 4,200 Kč</p>
+                <button>Koupit</button>
+            </div>
+             <div class="product-card">
+                <img src="H:\Python\Hong.png" alt="Hong">
+                <h3>Hong Kongské Občanství</h3>
+                <p>Cena: 4,500 Kč</p>
+                <button>Koupit</button>
+            </div>
+            <div class="product-card">
+               <img src="H:\Python\Butan.png" alt="Hong">
+               <h3>Bhútánské Občanství</h3>
+               <p>Cena: 4,000 Kč</p>
+               <button>Koupit</button>
+            </div>
+            <div class="product-card">
+               <img src="H:\Python\Viet.png" alt="Viet">
+               <h3>Vietnamské Občanství</h3>
+               <p>Cena: 4,000 Kč</p>
+               <button>Koupit</button>
+    </section>
+
+    <section id="kontakt">
+        <h2>Když meditace, tak Shaolin</h2>
+        <h3>Organizaci Shaolin Sensei jsme založili v Bhutanu jako malou vesnici. Nečekali jsme ale že se s naším spirituálním vůdcem Filipu Shun Plansichike dostaneme až sem. Tady je pár vřelých slov od našho spirituálního vůdce: "Arigato, namaste hokkaido hiroshima naghasaki. Konniciva vietnam sqidgem chumida". 
+        </h3>
+</body>
+</html>
