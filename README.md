@@ -104,7 +104,7 @@ Modularita – Každá věc má svoje místo.
   
 Relativní cesty – „Kámo, ať to funguje všude!“
 Chceš, aby ti odkazy na obrázky, styly nebo skripty fungovaly doma, na GitHubu i ve škole? Používej relativní cesty:
-- Nepiš žádný H:\Python\logo.png, to fakt ne.
+- Nepiš žádný .\assets\images\logo.png, to fakt ne.
    
 Názvy složek souvisle a malými písmeny – „lowercase-kebab-case 4ever“ 
 Nepoužívej mezeru, nepiš s velkými písmeny, a žádný Componenty nebo MyHeader, vyhoď diakritiku!.
