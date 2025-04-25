@@ -89,7 +89,7 @@
 
 ---
 
-### 📜 **7. Budoucí pravidla a konvence (legend)**
+### 📜 **7. Budoucí pravidla a konvence (legend) - kebab-case**
 - [ ] Dodržovat `lowercase-kebab-case` pro názvy souborů a složek
 - [ ] Vyhýbat se diakritice, mezerám a velkým písmenům ve jménech
 - [ ] Vše strukturovat **modulárně** – komponenty, styly, data zvlášť
