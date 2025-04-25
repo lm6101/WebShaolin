@@ -1,10 +1,44 @@
 # WebShaolin
-## Struktura
-- css Cascading Style Sheet
-- js: Java Script 
-- assets/images: Obrazky
-- components: js kod
-- data: data pro eshop'
+## Struktura složek a co kam patří
+
+- **/webshaolin/**  
+  Hlavní adresář projektu obsahující HTML soubory a podsložky.
+
+  - **index.html**  
+    Domácí stránka projektu (nahradí původní `ukol.html`).
+
+  - **produkty.html**  
+    Stránka s výpisem produktů e-shopu.
+
+  - **obcanstvi.html**  
+    Informační stránka o projektu, jeho účelu nebo myšlence.
+
+  - **kontakt.html**  
+    Kontaktní formulář nebo údaje.
+
+  - **kosik.html**  
+    Stránka s obsahem nákupního košíku.
+
+  - **/assets/images/**  
+    Obrázky a statické vizuální prvky (loga, produktové fotky, ikony atd.).
+
+  - **/components/**  
+    Web Components napsané v JavaScriptu, např. vlastní hlavička a patička.
+    - `my-header.js` – komponenta pro hlavičku (navigaci)
+    - `my-footer.js` – komponenta pro patičku
+    - `my-cart.js` – komponenta pro zobrazení položek v košíku
+
+  - **/css/**  
+    Styly pro celý web (Cascading Style Sheets).
+    - `style.css` – hlavní stylovací soubor
+
+  - **/js/**  
+    Obecné JavaScriptové skripty pro funkčnost webu.
+    - `main.js` – skript pro košík, navigaci, interakce s localStorage
+
+  - **/data/**  
+    Strukturovaná data pro web ve formátu JSON.
+    - `produkty.json` – seznam produktů pro e-shop
 
 ## ✅ **ToDo List**
 
