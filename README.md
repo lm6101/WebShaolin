@@ -1,4 +1,6 @@
 # WebShaolin
+## Odkaz na web
+[Web Shaolin](https://syrovisachy.github.io/WebShaolin/)
 ## Struktura složek a co kam patří
 
 - **/webshaolin/**  
@@ -43,16 +45,16 @@
 ## ✅ **ToDo List**
 
 ### 📁 **1. Úprava struktury složek**
-- [ ] Přesunout všechny CSS soubory do složky `/css`
-- [ ] Přesunout všechny obrázky do složky `/assets/images`
-- [ ] Přesunout JavaScript soubory do `/js`
+- [ X ] Přesunout všechny CSS soubory do složky `/css`
+- [ X ] Přesunout všechny obrázky do složky `/assets/images`
+- [ X ] Přesunout JavaScript soubory do `/js`
 - [ ] Vytvořit složku `/components` pro komponenty jako hlavička a patička
 - [ ] Vytvořit složku `/data` a umístit tam `produkty.json` se seznamem produktů
 
 ---
 
 ### 🧹 **2. Refaktoring ukol.html**
-- [ ] Přejmenovat `ukol.html` na `index.html`
+- [ X ] Přejmenovat `ukol.html` na `index.html`
 - [ ] Vytvořit tři nové HTML stránky:
   - [ ] `produkty.html` – přehled produktů
   - [ ] `obcanstvi.html` – stránka o projektu (případně přejmenovat na něco výstižnějšího)
