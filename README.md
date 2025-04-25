@@ -11,4 +11,6 @@
    1. Produkty
    2. občanství
    3. kontakt
-
+## Hints
+- Jak  predavat a uchovavat data pomoci Java Scriptu? Pouzij LocalStorage
+    https://html.spec.whatwg.org/multipage/#toc-webstorage 
